@@ -184,22 +184,6 @@ Typical items that should stay out of Git:
 - secrets files
 - local debug dumps
 
-## Suggested `.gitignore` principles
-
-Typical exclusions for this kind of repo include:
-
-```gitignore
-build/
-*.log
-*.tmp
-*.swp
-.DS_Store
-config.local.json
-secrets.json
-```
-
-This should be adjusted to the actual project conventions.
-
 ## Operational standard
 
 A trading agent is only useful if it is operationally trustworthy.
