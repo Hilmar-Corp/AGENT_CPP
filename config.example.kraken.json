@@ -1,0 +1,35 @@
+{
+  "hilmarcorp_base_url": "http://127.0.0.1:8000",
+  "api_version": "v1",
+  "client_id": "demo",
+  "hilmarcorp_api_key": "hc_xxx",
+
+  "mode": "trade",
+  "poll_seconds": 10,
+  "dry_run": true,
+
+  "exchange": "kraken_futures",
+  "instrument": "perp",
+  "quote_currency": "USD",
+  "leverage": 1,
+  "cash_reserve_pct": 0.0,
+
+  "cex_key_local": {
+    "api_key": "KRAKEN_FUTURES_API_KEY",
+    "api_secret": "KRAKEN_FUTURES_API_SECRET"
+  },
+
+  "risk_limits": {
+    "max_abs_exposure": 1.0,
+    "max_order_notional": 0.0,
+    "min_trade_notional": 0.0,
+    "symbols_whitelist": ["PF_XBTUSD"]
+  },
+
+  "kraken_futures": {
+    "base_url": "https://futures.kraken.com/derivatives",
+    "symbols": {
+      "PF_XBTUSD": { "contract_size": 1.0, "lot_step": 1.0, "min_size": 1.0 }
+    }
+  }
+}

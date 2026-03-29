@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/build",
+  "command": "/usr/bin/c++  -I\"/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/src\" -I\"/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/src/../third_party\" -isystem /opt/homebrew/Cellar/openssl@3/3.6.0/include -std=gnu++20 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/hilmarcorp-agent.dir/main.cpp.o -c \"/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/src/main.cpp\"",
+  "file": "/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/src/main.cpp",
+  "output": "CMakeFiles/hilmarcorp-agent.dir/main.cpp.o"
+}
+]

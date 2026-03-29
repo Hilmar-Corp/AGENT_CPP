@@ -1,0 +1,70 @@
+ {
+  "hilmarcorp_base_url": "http://127.0.0.1:8000",
+  "api_version": "v1",
+  "client_id": "demo",
+  "hilmarcorp_api_key": "hc_xxx",
+
+  "mode": "trade",
+  "poll_seconds": 30,
+  "dry_run": true,
+
+  "exchange": "binance",
+  "instrument": "perp_usdt",
+  "quote_currency": "USDT",
+
+  "leverage": 3,
+  "cash_reserve_pct": 0.10,
+
+  "cex_key_local": {
+    "api_key": "BINANCE_KEY",
+    "api_secret": "BINANCE_SECRET",
+    "passphrase": null
+  },
+
+  "risk_limits": {
+    "max_abs_exposure": 1.0,
+    "max_order_notional": 200.0,
+    "min_trade_notional": 5.0,
+    "symbols_whitelist": ["BTCUSDT", "ETHUSDT"]
+  },
+
+  "_examples": {
+    "kraken_futures_perp_like": {
+      "hilmarcorp_base_url": "http://127.0.0.1:8000",
+      "api_version": "v1",
+      "client_id": "demo",
+      "hilmarcorp_api_key": "hc_xxx",
+
+      "mode": "trade",
+      "poll_seconds": 30,
+      "dry_run": true,
+
+      "exchange": "kraken",
+      "instrument": "perp_usd",
+      "quote_currency": "USD",
+
+      "leverage": 3,
+      "cash_reserve_pct": 0.10,
+
+      "cex_key_local": {
+        "api_key": "KRAKEN_FUTURES_API_KEY",
+        "api_secret": "KRAKEN_FUTURES_API_SECRET_BASE64",
+        "passphrase": null
+      },
+
+      "risk_limits": {
+        "max_abs_exposure": 1.0,
+        "max_order_notional": 0.0,
+        "min_trade_notional": 0.0,
+        "symbols_whitelist": ["PF_XBTUSD"]
+      },
+
+      "kraken_futures": {
+        "base_url": "https://futures.kraken.com/derivatives",
+        "symbols": {
+          "PF_XBTUSD": { "contract_size": 1.0, "lot_step": 1.0, "min_size": 1.0 }
+        }
+      }
+    }
+  }
+}

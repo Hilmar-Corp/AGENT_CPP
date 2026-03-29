@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/hilmarcorp-agent.dir/main.cpp.o" -o hilmarcorp-agent  /Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/usr/lib/libcurl.tbd /opt/homebrew/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib /Library/Developer/CommandLineTools/SDKs/MacOSX14.5.sdk/usr/lib/libcurl.tbd

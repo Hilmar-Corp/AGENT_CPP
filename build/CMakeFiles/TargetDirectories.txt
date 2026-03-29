@@ -1,0 +1,3 @@
+/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/build/CMakeFiles/hilmarcorp-agent.dir
+/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/build/CMakeFiles/edit_cache.dir
+/Users/clovishilmarcher/Documents/2026/HilmarCorp/Site HC/agent_cpp/build/CMakeFiles/rebuild_cache.dir

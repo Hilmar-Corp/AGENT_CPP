@@ -1,0 +1,28 @@
+{
+  "hilmarcorp_base_url": "http://127.0.0.1:8000",
+  "api_version": "v1",
+  "client_id": "demo",
+  "hilmarcorp_api_key": "hc_xxx",
+
+  "mode": "trade",
+  "poll_seconds": 10,
+  "dry_run": true,
+
+  "exchange": "binance_futures_usdtm",
+  "instrument": "perp",
+  "quote_currency": "USDT",
+  "leverage": 3,
+  "cash_reserve_pct": 0.10,
+
+  "cex_key_local": {
+    "api_key": "BINANCE_KEY",
+    "api_secret": "BINANCE_SECRET"
+  },
+
+  "risk_limits": {
+    "max_abs_exposure": 1.0,
+    "max_order_notional": 200.0,
+    "min_trade_notional": 5.0,
+    "symbols_whitelist": ["BTCUSDT", "ETHUSDT"]
+  }
+}
